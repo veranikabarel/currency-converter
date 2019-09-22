@@ -1,25 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
+import {
+  Container,
+  Header,
+  Segment,
+} from 'semantic-ui-react';
+
+import Convert from './components/convert';
+
+
 import './App.css';
+
+const style = {
+  h1: {
+    marginTop: '3em',
+  },
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Segment.Group>
+      <Header as='h1' textAlign='center' style={style.h1} content='Currency converter' />
+        <Segment textAlign='center'><Convert/></Segment>
+      </Segment.Group>
+    </Container>
   );
 }
 
