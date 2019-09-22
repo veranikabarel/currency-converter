@@ -4,10 +4,7 @@ import {
   Header,
   Segment,
 } from 'semantic-ui-react';
-
-import Convert from './components/convert';
-
-
+import Convert from './components/convert.jsx';
 import './App.css';
 
 const style = {
