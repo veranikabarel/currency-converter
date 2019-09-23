@@ -16,7 +16,7 @@ A small web based currency converter that supposed to be a coding assignment for
 
 ## Technologies
 * [Create React App](https://github.com/facebook/create-react-app)
-* [Semantic-UI-React](https://github.com/Semantic-Org/Semantic-UI-React
+* [Semantic-UI-React](https://github.com/Semantic-Org/Semantic-UI-React)
 
 
 ## Installation and running
